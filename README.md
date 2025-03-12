@@ -10,3 +10,12 @@ worldToOutput converts coordinates from the world space to output space, such as
 
 Verbose how to install information as well as extra documentation is available in the other readme.txt file.
 
+```
+WARNING: Toonz requires that *output* colors must be 
+         'premultiplied' - that is, common RGB components
+         (in the range [0, 1]) must be stored multiplied
+         by their alpha component.
+```
+
+bool, float, vec2, int, ivec2, rgb, rgba
+
