@@ -8,4 +8,5 @@ There are 3 main coordinate spaces to work wtih. World, Output, and Input.
 
 worldToOutput converts coordinates from the world space to output space, such as when you want to do a blur radius from world units to pixels. outputToInput converts coordnates from outpsace space to input space, such as when sampling the source image. ouputToWorld converts coordinates from output space back to world space, useful for when you need to compare effect coordinates with world-space parameters.
 
+Verbose how to install information as well as extra documentation is available in the other readme.txt file.
 
