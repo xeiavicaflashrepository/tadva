@@ -1,6 +1,13 @@
 # tadva
 
-Tahoma2D and OpenToonz allows creating your own effects using GLSL. A few things to remember:  
+Tahoma2D and OpenToonz allows creating your own effects using GLSL.
+Shaders is just one part of VFX OpenToonz/Tahoma2D. There is actually a pipline:  
+![](RenderingPipeline.png?raw=true)
+
+You'll be working with either .vert (Vertex Shaders) or .frag (Fragment Shaders).
+
+
+A few things to remember:  
 There are 3 main coordinate spaces to work wtih. World, Output, and Input.
 * World Space - The entire canvas you'll be working with.
 * Input Space - The space area of your input images.
