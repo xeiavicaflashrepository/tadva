@@ -40,3 +40,16 @@ OpenToonz and Tahoma2D can use anything already provided by GLSL such as sin(). 
 * uniform vec2 outputSize.
 
 There are no additional extra functions provided by OT/T2D. You'll have to write them yourself.
+
+## Short Introduction To GLSL
+This is just a short introduction to what GLSL is, to get your feet wet.
+1. Vectors
+    1. vecn
+    2. bvecn
+    3. ivecn
+    4. uvecn
+    5. dvecn
+2. Uniform
+3. Arrays
+4. Matricies
+
