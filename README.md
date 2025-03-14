@@ -24,5 +24,19 @@ WARNING: Toonz requires that *output* colors must be
          by their alpha component.
 ```
 
-bool, float, vec2, int, ivec2, rgb, rgba
+OpenToonz and Tahoma2D can use anything already provided by GLSL such as sin(). The ONLY thigs predefined by T2D/OT for GLSL shaders are:
+* uniform mat3 worldToOutput.
+* uniform mat3 outputToWorld.
+* uniform vec4 outputRect.
+* varying vec4 inputRect[ports].
+* varying vec4 worldToInput[ports].
+* unform Sampler2D inputImage[n].
+* uniform mat3 outputToInput[n].
+* uniform mat3 inputToOutput[n].
+* uniform float time.
+* uniform float frame.
+* uniform vec2 inputSize.
+* uniform vec2 pixelSize.
+* uniform vec2 outputSize.
 
+There are no additional extra functions provided by OT/T2D. You'll have to write them yourself.
